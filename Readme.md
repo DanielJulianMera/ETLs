@@ -48,3 +48,23 @@ LIMIT 11
 4. San Antonio, San Diego, Phoenix, Dallas, y San Jose tienen concentraciones totales de contaminantes que varían, pero en general son menores en comparación con las ciudades más grandes como Nueva York y Los Ángeles.
 
 En resumen, aunque hay una tendencia general a que las ciudades más pobladas tengan mayores concentraciones de contaminantes del aire, no es una regla estricta. Otros factores además de la población juegan un papel significativo en la calidad del aire de una ciudad.
+
+## Proceso
+
+El Repositorio consta de los siguientes archivos
+
+1. analisis_calidad_aire.ipynb: Es un notebook con el proceso de recopilación y comparación de la información
+
+2. demografia_df.csv y calidad_aire_df.csv: Son los dataframes resultantes de la recopilación y comparación anterior.
+
+3. Limpieza de datos.py: Es un script en python con la finalidad de limpiar el dataframe de datos demograficos a las columnas y filas que nos interesan.
+
+4. demografia_df_limpio.csv: Es el dataframe resultante de el script de limpieza anterior.
+
+5. soluciones.py y tests.py: Son los scripts solicitados para la realización de pruebas.
+
+6. queries.py: Es el script realizado para comparar las dos tablas generadas en el primer punto del proceso en una base de datos junto con el query necesario para analizar los resultados
+
+7. ciudades.db: Es la base de datos resultante del script anterior
+
+8. us-cities-demographics.csv: Es la tabla original descargada del repositorio con la información demográfica
